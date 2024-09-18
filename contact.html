@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/styles.css" />
+        <script src="src/app.js"></script>
+        <script src="https://kit.fontawesome.com/ef9abe7bf9.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+        <title>Contact Me</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <meta charset="UTF-8" />
+    </head>
+    <body background="images/background.png">
+        <section class="hero">
+            <nav>
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="maru-logo"/></a>
+                <ul id="navigation-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about-me">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="stackedBars" id="stackedBars">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+            <div class="hero-area">
+
+            </div>
+        </section>
+        <section class="hero-area" id="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-page">
+                <div class="contact-title">
+                    <h2>Get In Touch</h2>
+                </div>
+                <input type="hidden" name="access_key" value="e9739472-268e-4076-b542-7f9748b8a9ef">
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="text" name="email" placeholder="Your Email" class="contact-input" required>
+                <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+                <button type="submit" class="button" id="submit-btn">SUBMIT</button>
+            </form>
+        </section>
+        <footer class="basic-footer">
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/mayrangelie-garcia/"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                <a href="https://github.com/mayrangelie"><i class="fa-brands fa-github" id="github"></i></a>
+                <a href="https://www.instagram.com/mayrangelie"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+            </div>
+            <div class="footer-nav"></div>
+        </footer>
+    </body>
+</html>

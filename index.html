@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/styles.css" />
+        <script src="src/app.js"></script>
+        <script src="https://kit.fontawesome.com/ef9abe7bf9.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <meta charset="UTF-8" />
+    </head>
+    <body background="images/background.png">
+        <section class="hero">
+            <nav>
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="maru-logo"/></a>
+                <ul id="navigation-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="stackedBars" id="stackedBars">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+            <div class="hero-area">
+                <div class="computer-window" id="computer-window">
+                    <div class="window-icons">
+                        <i class="fa-sharp fa-solid fa-window-minimize" id="minimize"></i>
+                        <i class="fa-sharp fa-regular fa-square" id="square"></i>
+                        <i class="fa-solid fa-xmark" id="exit"></i>
+                    </div>
+                    <div class="hero-text">
+                        <h1 id="name">Mayrangelie Garcia</h1>
+                        <p>BBA Cyber Security</p>
+                        <div class="button" id="about-button"><a href="#about-me" style="padding: 15px;">ABOUT ME</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sub-section" id="about-me">
+            <div class="rectangle" id="rectangle">
+                <div class="rectangle1">
+                    <div class="window-icons" id="new-window">
+                        <i class="fa-sharp fa-solid fa-window-minimize"></i>
+                        <i class="fa-sharp fa-regular fa-square"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="rectangle3">
+                    <div class="information">
+                        <h1 id="intro">Hello</h1>
+                        <p>My name is Mayrangelie Garcia and I currently reside in San Antonio, Texas where I received my Bachelor’s 
+                            in Business Administration in Cyber Security from the University of Texas at San Antonio. I am highly motivated 
+                            and enjoy challenging and teaching myself new skills, this digital portfolio being one of them. When not working 
+                            on projects to put my skills to use, I enjoy spending time with my family and friends, traveling, puzzles, and 
+                            building my music collection. 
+                        </p>
+                        <br>
+                        <p>To learn more about my professional career or a few projects that I’ve worked on you can click below.  
+                        </p>
+                    </div>
+                    <div class="button" id="project-btn"><a href="projects.html" style="padding: 15px;">PROJECTS</a></div>
+                    <div class="button" id="resume-btn"><a href="resume.html" style="padding: 15px;">RESUME</a></div>
+                    <div class="rectangle2">
+                        <div class="scroll"></div>
+                        <div class="rectangle4">
+                            <i class="fa-sharp fa-solid fa-play" id="icon"></i>
+                            <i class="fa-sharp fa-solid fa-play" id="icon2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangle5">
+                    <i class="fa-sharp fa-solid fa-play" id="icon3"></i>
+                </div>
+            </div>
+            <div class="headshot-container">
+                <img class="headshot" src="images/me.jpg" alt="mayrangelie-headshot"/>
+            </div>
+        </section>
+        <section class="hero-area" id="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-page">
+                <div class="contact-title">
+                    <h2>Get In Touch</h2>
+                </div>
+                <input type="hidden" name="access_key" value="e9739472-268e-4076-b542-7f9748b8a9ef">
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="text" name="email" placeholder="Your Email" class="contact-input" required>
+                <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+                <button type="submit" class="button" id="submit-btn">SUBMIT</button>
+            </form>
+        </section>
+        <footer class="basic-footer">
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/mayrangelie-garcia/"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                <a href="https://github.com/mayrangelie"><i class="fa-brands fa-github" id="github"></i></a>
+                <a href="https://www.instagram.com/mayrangelie"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+            </div>
+            <div class="footer-nav"></div>
+        </footer>
+    </body>
+</html>

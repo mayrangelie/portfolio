@@ -1,0 +1,116 @@
+.title {
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#download-btn {
+    font-size: 12px;
+    width: 120px;
+}
+
+#download-btn:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 65px;
+}
+
+.personal {
+    background-color: rgba(204, 153, 111, 0.623);
+    flex: 15%;
+    box-shadow: 0px 0px 15px #3d4c33da;
+}
+
+.personal-contents {
+    text-align: center;
+}
+
+#email:hover {
+    background-color: rgba(167, 124, 90, 0.623);
+}
+
+.face {
+    height: 400px;
+    border-radius: 185px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.text {
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.resume-contents {
+    background-color: rgba(204, 153, 111, 0.623);
+    flex: 50%;
+    box-shadow: 0px 0px 15px #3d4c33da;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1188px) {
+    .container {
+        display: block;
+        align-items: center;
+    }
+
+    .resume-contents {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        margin: 30px;
+    }
+
+    .face {
+        max-width: 90%;
+        height: auto;
+        width: auto/9;
+    }
+}
+
+#responsibilities {
+    list-style-type: none;
+    pointer-events: none;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.task {
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+h2 {
+    padding-left: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.shape {
+    background-color: rgba(255, 255, 255, 0.699);
+    height: 15px;
+}
+
+.college {
+    padding-top: 20px;
+    padding-left: 30px;
+}

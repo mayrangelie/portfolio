@@ -1,0 +1,73 @@
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1500px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        margin-top: 50px;
+    }
+}
+
+.project-card {
+    width: 410px;
+    height: 500px;
+    box-shadow: 5px 5px 20px;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.subtext {
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.click {
+    padding-top: 15px;
+}
+
+.project-link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.project-link:hover {
+    background-color: rgba(239, 232, 131, 0.623);
+    padding: 5px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
