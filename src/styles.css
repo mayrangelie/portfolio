@@ -333,6 +333,7 @@ a {
 #submit-btn {
     position: relative;
     left: 160px;
+    font-size: 12px;
 }
 
 .basic-footer {
