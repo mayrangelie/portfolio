@@ -80,8 +80,16 @@ li:hover {
 
 #name {
     margin-top: 225px;
-    font-size: 40px;
+    font-size: 80px;
     color: black;
+    font-family: "Alex Brush", cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#major {
+    margin-top: -75px;
+    font-size: 25px;
 }
 
 p {
@@ -99,7 +107,7 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 13px;
     width: 100px;
     height: 40px;
     background-color: rgb(255, 255, 255);
@@ -201,6 +209,7 @@ a {
 #intro {
     margin-top: 0px;
     font-size: 65px;
+    font-family: 'Bigshot';
 }
 
 #new-window {
@@ -309,7 +318,7 @@ a {
 }
 
 .contact-title h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .contact-input {
@@ -333,7 +342,7 @@ a {
 #submit-btn {
     position: relative;
     left: 160px;
-    color: black;
+    font-size: 12px;
 }
 
 .basic-footer {
@@ -345,5 +354,9 @@ a {
     font-size: 25px;
     justify-content: center;
     text-align: center;
+}
+
+#contact-footer {
+    bottom: 0;
 }
 
