@@ -21,6 +21,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin: 65px;
+    font-family: 'Georgia', serif;
 }
 
 .personal {
