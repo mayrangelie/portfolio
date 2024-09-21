@@ -28,10 +28,12 @@ h1 {
     background-color: rgba(204, 153, 111, 0.623);
     flex: 15%;
     box-shadow: 0px 0px 15px #3d4c33da;
+    padding: 10px;
 }
 
 .personal-contents {
     text-align: center;
+    font-size: 13px;
 }
 
 #email:hover {
@@ -56,7 +58,7 @@ h1 {
     background-color: rgba(204, 153, 111, 0.623);
     flex: 50%;
     box-shadow: 0px 0px 15px #3d4c33da;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 @media screen and (max-width: 1188px) {
@@ -95,19 +97,19 @@ h1 {
 
 .task {
     padding-bottom: 15px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 h2 {
     padding-left: 15px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
 .job {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .shape {
@@ -118,4 +120,8 @@ h2 {
 .college {
     padding-top: 20px;
     padding-left: 30px;
+}
+
+p {
+    font-size: 15px;
 }
