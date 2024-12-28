@@ -92,12 +92,15 @@ h1 {
     list-style-type: none;
     pointer-events: none;
     padding-right: 15px;
-    padding-top: 5px;
 }
 
 .task {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 15px;
+}
+
+#star {
+    font-size: 10px;
 }
 
 h2 {
